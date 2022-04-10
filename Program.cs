@@ -38,6 +38,7 @@
         }
     });
 
+    thread.IsBackground = true;
     thread.Start();
 
     Console.ForegroundColor = ConsoleColor.Yellow;
